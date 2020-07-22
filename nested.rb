@@ -58,8 +58,7 @@ def dennis_ritchies_language
         }
      }
   
-  answer = programmer_hash[:dennis_ritchie][:languages]
-  answer.join
+  programmer_hash[:dennis_ritchie][:languages].join
   
 end
 
